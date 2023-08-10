@@ -1,0 +1,97 @@
+/* ----------header------------- */
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    /*background-color: blue;*/
+  }
+  
+  .headerContainer {
+    display: flex; /* Display as flex container */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between items */
+    text-align: center;
+    /*background-color: aqua;*/
+    height: 100%;
+    position: relative;
+    
+  }
+
+/* ----------resume------------- */
+.res{
+    margin-top : 2rem;
+    display: flex;
+    gap: 1.3rem;
+    justify-content: center;
+}
+
+/* ----------social_media------------- */
+.social_media{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:0.8rem; 
+}
+  
+  /* ----------my_photo------------- */
+  .my_photo {
+    width: 25rem;
+    height: 29rem;
+    margin-top: 4rem;
+    margin-right: 5rem;
+  }
+  
+  /* ----------left-content------------- */
+  .left-content {
+    text-align: left;
+    padding: 1rem;
+    padding-left: 5rem;
+    color: white;
+  }
+
+ /* ----------- Media Query for Tablet (max-width: 1024px) --------*/
+@media screen and (max-width: 1024px) {
+    header {
+      height: 68vh;
+    }
+  
+    .my_photo {
+      width: 100%; /* Make the image full width */
+      height: auto; /* Maintain aspect ratio */
+      margin: 2rem 0; /* Adjust margins */
+    }
+  }
+
+ /* ----------- Media Queries--------*/
+@media screen and (max-width: 600px) {
+    header {
+      height: 100vh;
+    }
+  
+    .headerContainer {
+      flex-direction: column; /* Stack items vertically for mobile */
+      justify-content: center; /* Center items vertically */
+      padding: 1rem; /* Adjust padding */
+      text-align: center;
+    }
+  
+    .my_photo {
+      width: 100%; /* Make the image full width */
+      height: auto; /* Maintain aspect ratio */
+      margin: 2rem 0; /* Adjust margins */
+    }
+  
+    .left-content {
+      text-align: center; /* Center text content */
+      padding: 0; /* Remove unnecessary padding */
+      color: black;
+    }
+
+    .res{
+        margin-left : 1.5rem;
+        margin-right: 1.5rem;
+        display: flex;
+        gap: 1.3rem;
+        justify-content: center;
+    }
+  }
