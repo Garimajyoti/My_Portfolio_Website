@@ -55,7 +55,50 @@ const Experience = () => {
 
         </div>
 
+        <div className="backend_experience">
+        <h3>Backend Development</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+            <BsBookmarkCheckFill className='experience_icon'/>
+              <div>
+              <h4>Java</h4>
+              <small className="text-light">Experienced</small>
+              </div>
+            </article>
 
+            <article className="experience_details">
+            <BsBookmarkCheckFill className='experience_icon'/>
+              <div>
+              <h4>SQL</h4>
+              <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+            <BsBookmarkCheckFill className='experience_icon'/>
+              <div>
+              <h4>SpringBoot</h4>
+              <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+            <BsBookmarkCheckFill className='experience_icon'/>
+              <div>
+              <h4>MySQL</h4>
+              <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+            <BsBookmarkCheckFill className='experience_icon'/>
+              <div>
+              <h4>MongoDB</h4>
+              <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
 
       </div>
     </section>
