@@ -89,7 +89,7 @@ text-align: center;
     }
 }
 
-/*-------------Media -Queries(Medium devices)------------*/
+/*-------------Media -Queries(Small devices)------------*/
 @media screen and (max-width: 600px) {
     .about_me{
         width:70%;
