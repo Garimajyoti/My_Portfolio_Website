@@ -14,15 +14,16 @@ header {
     /*background-color: aqua;*/
     height: 100%;
     position: relative;
-    
-  }
+   
+      }
 
 /* ----------resume------------- */
 .res{
-    margin-top : 2rem;
-    display: flex;
-    gap: 1.3rem;
-    justify-content: center;
+  margin-top : 2rem;
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
 /* ----------social_media------------- */
@@ -33,19 +34,37 @@ header {
     gap:0.8rem; 
 }
   
+.social_media a{
+  background: var(--color-primary);
+  color:var(--color-bg);
+  padding:0.5rem;
+  border-radius: 0.6rem;
+  display:flex;
+  border: 1px solid transparent;
+}
   /* ----------my_photo------------- */
   .my_photo {
     width: 25rem;
     height: 29rem;
-    margin-top: 4rem;
-    margin-right: 5rem;
+    margin-top: 6rem;
+    margin-right: 1rem;
+    
   }
   
   /* ----------left-content------------- */
   .left-content {
-    text-align: left;
+    text-align: center;
     padding: 1rem;
-    padding-left: 5rem;
+    padding-left: 1rem;
+    color: var(--color-light);
+    margin-top: 4.5rem;
+    margin-right:2rem;
+    /*background-color: blue;*/
+  }
+
+
+
+  .my_information h1, h2{
     color: white;
   }
 
