@@ -1,0 +1,5 @@
+.contact_container{
+    background: var(--color-bg-variant);
+    Padding: 10rem;
+    text-align: center;
+}
