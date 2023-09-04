@@ -23,8 +23,9 @@
     overflow: hidden;
 }
 
-.portfolio_work h3{
+.portfolio_work h4{
     margin: 1.1rem 0 1rem;
+    color:white;
 }
 
 /*-------------Media -Queries(Medium devices)------------*/

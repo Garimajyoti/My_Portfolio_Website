@@ -1,24 +1,26 @@
 import React from 'react'
 import './portfolio.css'
 import Image1 from '../../assets/Image1.jpg'
+import Image2 from '../../assets/Image2.jpg'
+import Image3 from '../../assets/Image3.jpg'
 
 const work = [
   {
     id : 1,
     image : Image1,
-    title : 'Twitter-Clone Application 1',
+    title : 'Twitter Clone Application',
     github : 'https://github.com/Garimajyoti'
   },
   {
     id : 2,
-    image : Image1,
-    title : 'Twitter-Clone Application 2',
+    image : Image2,
+    title : 'Social Media Search Engine',
     github : 'https://github.com/Garimajyoti'
   },
   {
     id : 3,
-    image : Image1,
-    title : 'Twitter-Clone Application 3',
+    image : Image3,
+    title : 'Brain Buddy E-learning Application',
     github : 'https://github.com/Garimajyoti'
   }
 ]
@@ -35,9 +37,9 @@ const Portfolio = () => {
 
               <article className='portfolio_work'>
               <div className = 'portfolio_work-image'>
-                <img src={Image1} alt="{title}" />
+              <img src={image} alt="{title}" />
               </div>
-              <h3>{title}</h3>
+              <h4>{title}</h4>
               <a href={github} className='btn btn btn-primary' target='_blank'>Github</a>
             </article>
 
